@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="10.170" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-04-10T13:39:57" tests="0" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="GoogleSearch" timestamp="2023-04-10T13:39:57" tests="2" file="C:\Users\Civil\Documents\Automation\New Trial1\GoogleSearch_test.js" time="10.167" failures="0">
+    <testcase name="GoogleSearch: test something" time="4.657" classname="test something">
+    </testcase>
+    <testcase name="GoogleSearch: test something-2" time="4.615" classname="test something-2">
+    </testcase>
+  </testsuite>
+</testsuites>

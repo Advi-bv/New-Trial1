@@ -1,0 +1,193 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-04-10T13:45:24.254Z",
+    "end": "2023-04-10T13:45:34.953Z",
+    "duration": 10699,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "48ec788e-6cb7-47f3-ad68-5aee8ae56f65",
+      "title": "",
+      "fullFile": "C:\\Users\\Civil\\Documents\\Automation\\New Trial1\\GoogleSearch_test.js",
+      "file": "\\GoogleSearch_test.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "a3580b8e-e42d-4670-b04c-2685d376b571",
+          "title": "GoogleSearch",
+          "fullFile": "C:\\Users\\Civil\\Documents\\Automation\\New Trial1\\GoogleSearch_test.js",
+          "file": "\\GoogleSearch_test.js",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook: codeceptjs.beforeSuite in \"GoogleSearch\"",
+              "fullTitle": "GoogleSearch \"before all\" hook: codeceptjs.beforeSuite in \"GoogleSearch\"",
+              "timedOut": false,
+              "duration": 413,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteSetup(suite)",
+              "err": {},
+              "uuid": "64b35a97-91e1-41da-a913-5e6d26804365",
+              "parentUUID": "a3580b8e-e42d-4670-b04c-2685d376b571",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"before each\" hook: codeceptjs.before in \"GoogleSearch\"",
+              "fullTitle": "GoogleSearch \"before each\" hook: codeceptjs.before in \"GoogleSearch\"",
+              "timedOut": false,
+              "duration": 224,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.setup(suite)",
+              "err": {},
+              "uuid": "90334098-c595-411d-acd6-0c6a0cf90626",
+              "parentUUID": "a3580b8e-e42d-4670-b04c-2685d376b571",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after all\" hook: codeceptjs.afterSuite in \"GoogleSearch\"",
+              "fullTitle": "GoogleSearch \"after all\" hook: codeceptjs.afterSuite in \"GoogleSearch\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteTeardown(suite)",
+              "err": {},
+              "uuid": "bf360ddc-f8f4-4980-932e-bbf339c0a8f1",
+              "parentUUID": "a3580b8e-e42d-4670-b04c-2685d376b571",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"after each\" hook: finalize codeceptjs in \"GoogleSearch\"",
+              "fullTitle": "GoogleSearch \"after each\" hook: finalize codeceptjs in \"GoogleSearch\"",
+              "timedOut": false,
+              "duration": 51,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.teardown(suite)",
+              "err": {},
+              "uuid": "4f19ff88-a2e0-4cde-8b83-34f4f856ba89",
+              "parentUUID": "a3580b8e-e42d-4670-b04c-2685d376b571",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "test something",
+              "fullTitle": "GoogleSearch: test something",
+              "timedOut": false,
+              "duration": 5193,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "I } ) => {\n    I.amOnPage('/');\n    I.wait(3);\n    I.see('Gmail');",
+              "err": {},
+              "uuid": "5ba03501-cb4b-47c0-9125-48d01cc88d72",
+              "parentUUID": "a3580b8e-e42d-4670-b04c-2685d376b571",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "test something-2",
+              "fullTitle": "GoogleSearch: test something-2",
+              "timedOut": false,
+              "duration": 4523,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "I } ) => {\n    I.amOnPage('/');\n    I.wait(3);\n    I.see('About');",
+              "err": {},
+              "uuid": "886c1d64-7116-4bc1-8d2c-8effd5ed7776",
+              "parentUUID": "a3580b8e-e42d-4670-b04c-2685d376b571",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "5ba03501-cb4b-47c0-9125-48d01cc88d72",
+            "886c1d64-7116-4bc1-8d2c-8effd5ed7776"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 9716,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 0
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 0
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "10.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {},
+      "version": "6.2.0"
+    }
+  }
+}
